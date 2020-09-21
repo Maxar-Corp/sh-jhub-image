@@ -1,0 +1,3 @@
+allow_other_channels: True
+channels:
+        - anaconda
