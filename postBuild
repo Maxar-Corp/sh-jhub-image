@@ -3,4 +3,4 @@
  echo "envs_dirs:\n  - /home/jovyan/my-conda-envs/" > /home/jovyan/.condarc
  mkdir -p /srv/conda/pkgs
  touch /srv/conda/pkgs/urls.txt
- chmod 777 /srv/conda/pkgs/urls.txt
+ chmod 777 /srv/conda/
