@@ -1,0 +1,6 @@
+ mkdir -p /home/jovyan/my-conda-envs/
+ touch /home/jovyan/.condarc
+ echo "envs_dirs:\n  - /home/jovyan/my-conda-envs/" > /home/jovyan/.condarc
+ mkdir -p /srv/conda/pkgs
+ touch /srv/conda/pkgs/urls.txt
+ chown 1000:0 /srv/conda/pkgs/urls.txt
